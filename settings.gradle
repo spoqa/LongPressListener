@@ -1,3 +1,3 @@
 include ':LongPressListener'
 include ':app'
-rootProject.name = "AndroidLongPressListener"
+rootProject.name = "LongPressListener"
