@@ -6,16 +6,17 @@ import android.view.View
 /**
  * Called when a long press event with certain dutation is dispatched to a view
  *
- * @param onLongPressHandler Handles the long press action
+ * @param onLongPressCallback Callback to be invoked after long press event
  * @param duration Certain duration for handling long press after delay
  *                 (Default value is 3 seconds)
  */
 class OnLongPressListener @JvmOverloads constructor(
-    private val onLongPressHandler: OnLongPressHandler,
+    onLongPressCallback: OnLongPressCallback,
     private val duration: Long = 3000L
 ) : View.OnTouchListener {
 
-    var longClickActionMoveOutsideFlag = false
+    private var longClickActionMoveOutsideFlag = false
+    private val onLongPressHandler = OnLongPressHandler(onLongPressCallback)
 
     override fun onTouch(v: View, event: MotionEvent): Boolean {
         onLongPressHandler.apply {
