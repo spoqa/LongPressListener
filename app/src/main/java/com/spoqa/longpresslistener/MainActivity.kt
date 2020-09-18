@@ -16,31 +16,8 @@ class MainActivity : AppCompatActivity() {
             ).show()
         }
 
-        button_1seconds.setOnTouchListener(OnLongPressListener(
-            object : OnLongPressCallback {
-                override fun onPress() {
-                    triggeredAction.invoke()
-                }
-            },
-            duration = 1000L
-        ))
-
-        button_3seconds.setOnTouchListener(OnLongPressListener(
-            object : OnLongPressCallback {
-                override fun onPress() {
-                    triggeredAction.invoke()
-                }
-            },
-            duration = 3000L
-        ))
-
-        button_5seconds.setOnTouchListener(OnLongPressListener(
-            object : OnLongPressCallback {
-                override fun onPress() {
-                    triggeredAction.invoke()
-                }
-            },
-            duration = 5000L
-        ))
+        button_1seconds.onPress(triggeredAction, 1000L)
+        button_3seconds.onPress(triggeredAction, 3000L)
+        button_5seconds.onPress(triggeredAction, 5000L)
     }
 }
