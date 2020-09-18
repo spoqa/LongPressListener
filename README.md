@@ -2,7 +2,7 @@
 [PlatformBadge]: https://img.shields.io/badge/Platform-Android-blue.svg
 [LicenceUrl]: https://opensource.org/licenses/MIT
 [LicenseBadge]: https://img.shields.io/badge/License-MIT-blue.svg
-[BintrayUrl]: https://android-arsenal.com/details/1/7134
+[BintrayUrl]: https://bintray.com/beta/#/spoqa/maven/LongPressListener?tab=overview
 [BintrayBadge]: https://img.shields.io/bintray/dt/spoqa/maven/LongPressListener.svg
 
 # LongPressListener
@@ -13,6 +13,9 @@
 ---------
 
 Android long press(click) listener with custom duration ✨
+
+[View.OnLongClickListener](https://developer.android.com/reference/android/view/View.OnLongClickListener) in Android does not support custom duration for long click action.
+Using this library can invoke long press(click) action with custom dutation whatever you want.
 
 ## ScreenShot
 ![screenshot](https://user-images.githubusercontent.com/32327475/93577949-a6350980-f9d7-11ea-9c1b-e426de61f0a9.gif)
@@ -53,9 +56,11 @@ view.setOnTouchListener(OnLongPressListener(
 
 ### With Kotlin Extensions
 ```kotlin
-view.onPress({
-    // Your action after long press
-})
+view.onPress(
+    {
+        // Your action after long press
+    }, duration = 3000L  // Optional
+)
 ```
 
 
