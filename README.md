@@ -15,11 +15,21 @@ Install library with Gradle
 ### Gradle:
 Add this to your project level build.gradle:
 
-TBD
+```groovy
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+```
 
 Add this to your app build.gradle:
 
-TBD
+```groovy
+dependencies {
+    implementation "com.spoqa.longpresslistener:LongPressListener:1.0.0"
+}
+```
 
 ## Usages
 ```kotlin
