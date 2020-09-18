@@ -1,9 +1,17 @@
-[ProjectGithubUrl]:     https://github.com/spoqa/LongPressListener
-[PlatformBadge]:  https://img.shields.io/badge/Platform-Android-blue.svg
+[ProjectGithubUrl]: https://github.com/spoqa/LongPressListener
+[PlatformBadge]: https://img.shields.io/badge/Platform-Android-blue.svg
+[LicenceUrl]: https://opensource.org/licenses/MIT
+[LicenseBadge]: https://img.shields.io/badge/License-MIT-blue.svg
+[BintrayUrl]: https://android-arsenal.com/details/1/7134
+[BintrayBadge]: https://img.shields.io/bintray/dt/spoqa/maven/LongPressListener.svg
+
+# LongPressListener
 
 [![Platform][PlatformBadge]][ProjectGithubUrl]
-(more badges TBD)
-# LongPressListener
+[![License][LicenseBadge]][LicenceUrl]
+[![BintrayBadge]][BintrayUrl]
+---------
+
 Android long press(click) listener with custom duration ✨
 
 ## ScreenShot
