@@ -46,7 +46,7 @@ view.setOnTouchListener(OnLongPressListener(
         override fun onPress() {
             // Your action after long press
         }
-    ),
+    },
     duration = 3000L  // Optional
 ))
 ```
