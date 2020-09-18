@@ -15,7 +15,7 @@
 Android long press(click) listener with custom duration ✨
 
 ## ScreenShot
-TBD
+![screenshot](https://user-images.githubusercontent.com/32327475/93577949-a6350980-f9d7-11ea-9c1b-e426de61f0a9.gif)
 
 ## Setup
 Install library with Gradle
