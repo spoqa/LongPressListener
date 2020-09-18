@@ -35,7 +35,7 @@ Add this to your app build.gradle:
 
 ```groovy
 dependencies {
-    implementation "com.spoqa.longpresslistener:LongPressListener:1.0.0"
+    implementation "com.spoqa.longpresslistener:LongPressListener:1.0.1"
 }
 ```
 
