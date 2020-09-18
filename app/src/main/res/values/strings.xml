@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LongPressListener</string>
+    <string name="triggered_toast">Listener triggered!</string>
+    <string name="button_1seconds_label">PRESS ME FOR 1 SECONDS</string>
+    <string name="button_3seconds_label">PRESS ME FOR 3 SECONDS</string>
+    <string name="button_5seconds_label">PRESS ME FOR 5 SECONDS</string>
 </resources>
