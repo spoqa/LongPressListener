@@ -1,0 +1,35 @@
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group 'com.spoqa.longpresslistener'
+version '1.0.0'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'LongPressListener'
+    organization = 'spoqa'
+
+    // Library Details
+    publishedGroupId = this.group
+    libraryName = 'LongPressListener'
+    artifact = 'LongPressListener'
+    libraryDescription = 'Android long press(click) listener with custom duration'
+    libraryVersion = this.version
+
+    // Repository Link (For e.g. GitHub repo)
+    siteUrl = 'https://github.com/spoqa/LongPressListener'
+    gitUrl = 'https://github.com/spoqa/LongPressListener.git'
+    issueTrackerUrl = 'https://github.com/spoqa/LongPressListener/issues'
+    // Set githubRepository after project is public
+    // githubRepository= 'spoqa/LongPressListener'
+
+    // Developer details
+    developerId = 'wisemuji'
+    developerName = 'Suhyeon Kim'
+    developerEmail = 'dev@spoqa.com'
+
+    // License information
+    licenseName = 'The MIT License (MIT)'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
