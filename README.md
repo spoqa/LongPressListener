@@ -1,13 +1,21 @@
-[ProjectGithubUrl]:     https://github.com/spoqa/LongPressListener
-[PlatformBadge]:  https://img.shields.io/badge/Platform-Android-blue.svg
+[ProjectGithubUrl]: https://github.com/spoqa/LongPressListener
+[PlatformBadge]: https://img.shields.io/badge/Platform-Android-blue.svg
+[LicenceUrl]: https://opensource.org/licenses/MIT
+[LicenseBadge]: https://img.shields.io/badge/License-MIT-blue.svg
+[BintrayUrl]: https://android-arsenal.com/details/1/7134
+[BintrayBadge]: https://img.shields.io/bintray/dt/spoqa/maven/LongPressListener.svg
+
+# LongPressListener
 
 [![Platform][PlatformBadge]][ProjectGithubUrl]
-(more badges TBD)
-# LongPressListener
+[![License][LicenseBadge]][LicenceUrl]
+[![BintrayBadge]][BintrayUrl]
+---------
+
 Android long press(click) listener with custom duration ✨
 
 ## ScreenShot
-TBD
+![screenshot](https://user-images.githubusercontent.com/32327475/93577949-a6350980-f9d7-11ea-9c1b-e426de61f0a9.gif)
 
 ## Setup
 Install library with Gradle
@@ -15,11 +23,21 @@ Install library with Gradle
 ### Gradle:
 Add this to your project level build.gradle:
 
-TBD
+```groovy
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+```
 
 Add this to your app build.gradle:
 
-TBD
+```groovy
+dependencies {
+    implementation "com.spoqa.longpresslistener:LongPressListener:1.0.0"
+}
+```
 
 ## Usages
 ```kotlin
@@ -28,7 +46,7 @@ view.setOnTouchListener(OnLongPressListener(
         override fun onPress() {
             // Your action after long press
         }
-    ),
+    },
     duration = 3000L  // Optional
 ))
 ```
