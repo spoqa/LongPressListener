@@ -15,7 +15,7 @@
 Android long press(click) listener with custom duration ✨
 
 [View.OnLongClickListener](https://developer.android.com/reference/android/view/View.OnLongClickListener) in Android does not support custom duration for long click action.
-Using this library can invoke long press(click) action with custom dutation whatever you want.
+Using this library can invoke long press(click) action with custom duration whatever you want.
 
 ## ScreenShot
 ![screenshot](https://user-images.githubusercontent.com/32327475/93577949-a6350980-f9d7-11ea-9c1b-e426de61f0a9.gif)
