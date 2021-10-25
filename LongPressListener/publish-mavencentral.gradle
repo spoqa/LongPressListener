@@ -37,7 +37,7 @@ publishing {
             version VERSION_NAME
 
             if (project.plugins.findPlugin("com.android.library")) {
-                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar)")
+                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
             }
             artifact androidSourcesJar
 
