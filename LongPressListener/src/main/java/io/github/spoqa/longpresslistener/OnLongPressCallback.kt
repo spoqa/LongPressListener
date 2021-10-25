@@ -1,4 +1,4 @@
-package com.spoqa.longpresslistener
+package io.github.spoqa.longpresslistener
 
 /**
  * Interface definition for a callback to be invoked when a long press event is

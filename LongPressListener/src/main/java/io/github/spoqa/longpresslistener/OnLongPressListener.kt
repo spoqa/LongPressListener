@@ -1,4 +1,4 @@
-package com.spoqa.longpresslistener
+package io.github.spoqa.longpresslistener
 
 import android.view.MotionEvent
 import android.view.View

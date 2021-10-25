@@ -3,6 +3,7 @@ package com.spoqa.longpresslistener
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import io.github.spoqa.longpresslistener.onPress
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

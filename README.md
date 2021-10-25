@@ -29,7 +29,10 @@ Add this to your project level build.gradle:
 ```groovy
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
+        maven {
+            url "https://repo1.maven.org/maven2/"
+        }
     }
 }
 ```
@@ -38,7 +41,7 @@ Add this to your app build.gradle:
 
 ```groovy
 dependencies {
-    implementation "com.spoqa.longpresslistener:LongPressListener:1.0.1"
+    implementation "io.github.spoqa:longpresslistener:1.0.2"
 }
 ```
 
