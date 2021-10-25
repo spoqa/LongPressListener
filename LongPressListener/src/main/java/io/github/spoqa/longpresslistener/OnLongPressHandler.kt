@@ -1,4 +1,4 @@
-package com.spoqa.longpresslistener
+package io.github.spoqa.longpresslistener
 
 import android.os.Handler
 
